@@ -1,0 +1,24 @@
+{
+  "name": "node3",
+  "version": "0.0.1",
+  "description": "Tabla de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernan066/Node3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernan066/Node3/issues"
+  },
+  "homepage": "https://github.com/hernan066/Node3#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.3.0"
+  },
+  "devDependencies": {}
+}
