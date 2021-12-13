@@ -1,21 +1,6 @@
 const { crearTabla } = require("./helpers/multiplicar");
-const argv = require("yargs")
-  .options("b", {
-    alias: "base",
-    type: "number",
-    demandOption: true,
-  })
-  .check((argv, options) => {
-    if (isNaN(argv.base)) {
-      throw new Error("La base debe ser un numero");
-    }
-    return true;
-  })
-  .options("l", {
-    alias: "listar",
-    type: "boolean",
-    default: false,
-  }).argv;
+const argv = require("./config/yargs");
+
 
 console.clear();
 
